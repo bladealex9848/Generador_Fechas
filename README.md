@@ -1,4 +1,4 @@
-![Logo de Generador de Turnos](https://raw.githubusercontent.com/bladealex9848/TurnosFestivos/main/logo.png)
+![Logo de Generador de Turnos](https://raw.githubusercontent.com/bladealex9848/Generador_Fechas/main/logo.png)
 
 # Generador de Turnos Streamlit App
 

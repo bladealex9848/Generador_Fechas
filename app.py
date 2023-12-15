@@ -9,14 +9,19 @@ st.set_page_config(page_title="Generador de Turnos", page_icon="📅",
                    initial_sidebar_state='collapsed',
                    menu_items={
                        'Get Help': 'https://alexander.oviedo.isabellaea.com/',
-                       'About': "Esta aplicación facilita la generación de turnos, tomando en cuenta días festivos y fines de semana."
+                       'About': """Esta aplicación permite generar un programa de turnos personalizado,
+                                   considerando días laborables, fines de semana y festivos según las preferencias del usuario.
+                                   Ofrece opciones para incluir o excluir festivos y para organizar las fechas generadas
+                                   de forma horizontal o vertical, adaptándose a diversas necesidades de planificación."""
                    })
 
 # Título y descripción de la aplicación
-st.title('Generador de Turnos')
+st.title('📅 Generador de Turnos')
 st.write("""
-Bienvenido al Generador de Turnos. Esta herramienta te permite crear una programación de turnos basada en fechas seleccionadas,
-teniendo en cuenta días festivos y fines de semana. Simplemente carga los archivos necesarios y selecciona el rango de fechas.
+Bienvenido al Generador de Turnos. Con esta herramienta interactiva, puedes crear una programación de turnos 
+adaptada a tus necesidades específicas. Carga un archivo con los días festivos, define el rango de fechas, 
+elige incluir o excluir fines de semana y festivos, y selecciona la orientación de la distribución de las fechas.
+La aplicación genera un archivo Excel listo para descargar, facilitando la gestión de tus recursos y la planificación del tiempo.
 """)
 
 # Función para cargar y procesar los días festivos

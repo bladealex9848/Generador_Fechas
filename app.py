@@ -17,6 +17,12 @@ st.set_page_config(page_title="Generador de Turnos", page_icon="📅",
 
 # Título y descripción de la aplicación
 st.title('📅 Generador de Turnos')
+
+st.write("""
+    [![ver código fuente](https://img.shields.io/badge/Repositorio%20GitHub-gris?logo=github)](https://github.com/bladealex9848/Generador_Fechas)
+    ![Visitantes](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgeneradorfechas.streamlit.app&label=Visitantes&labelColor=%235d5d5d&countColor=%231e7ebf&style=flat)
+    """)
+
 st.write("""
 Bienvenido al Generador de Turnos. Con esta herramienta interactiva, puedes crear una programación de turnos 
 adaptada a tus necesidades específicas. Carga un archivo con los días festivos, define el rango de fechas, 
@@ -122,4 +128,4 @@ if st.button('Generar Excel'):
 st.sidebar.markdown('---')
 st.sidebar.subheader('Creado por:')
 st.sidebar.markdown('Alexander Oviedo Fadul')
-st.sidebar.markdown("[GitHub](https://github.com/bladealex9848) | [Website](https://alexander.oviedo.isabellaea.com/) | [Instagram](https://www.instagram.com/alexander.oviedo.fadul) | [Twitter](https://twitter.com/alexanderofadul) | [Facebook](https://www.facebook.com/alexanderof/) | [WhatsApp](https://api.whatsapp.com/send?phone=573015930519&text=Hola%20!Quiero%20conversar%20contigo!%20)")
+st.sidebar.markdown("[GitHub](https://github.com/bladealex9848) | [Website](https://www.alexanderoviedofadul.dev/) | [Instagram](https://www.instagram.com/alexander.oviedo.fadul) | [Twitter](https://twitter.com/alexanderofadul) | [Facebook](https://www.facebook.com/alexanderof/) | [WhatsApp](https://api.whatsapp.com/send?phone=573015930519&text=Hola%20!Quiero%20conversar%20contigo!%20)")
